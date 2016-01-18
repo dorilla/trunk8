@@ -165,6 +165,7 @@
 			/* Assuming there is no "overflow: hidden". */
 			if (this.height() <= line_height) {
 				/* Text is already at the optimal trunkage. */
+    		settings.onTruncate();
 				return;
 			}
 
